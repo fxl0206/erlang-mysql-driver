@@ -1,5 +1,2 @@
-all:
-	./rebar compile
-
-clean:
-	./rebar clean
+PROJECT=mysql
+include erlang.mk
